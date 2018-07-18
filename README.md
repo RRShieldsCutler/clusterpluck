@@ -1,6 +1,6 @@
 clusterpluck
 =======
-##### A Python package designed to efficiently process antiSMASH(1) results from large genome databases, with the ability to group homologous clusters into Operational Functional Units (OFUs).
+##### A Python package designed to efficiently process antiSMASH(1) results from large genome databases, with the ability to group homologous clusters into Operational Functional Units (OFUs). Certain features are still under development.
 
 ## Installation
 
@@ -43,6 +43,7 @@ conda install blast
 
 conda install -c bioconda blast=2.5.0
 ```
+Some processes also require a functional installation of R (e.g. https://anaconda.org/r/r-base).
 
 ## To cite:
 `Shields-Cutler RR; Hillmann B, Al-Ghalith GA, Knights D. (2018) Predicted secondary metabolite profiles for microbiome datasets. DOI:10.5281/zenodo.1208675`
